@@ -22,6 +22,7 @@ body {
   font-family: Roboto;
   color: var(--main-color);
   background-color: var(--main-bg-color);
+  letter-spacing: 0.03em;
 }
 ul {
   list-style: none;
@@ -31,12 +32,9 @@ a {
 }
 .logo {
   font-family: Raleway;
-  font-style: normal;
   font-weight: bold;
   font-size: 26px;
-  line-height: 1, 2;
-  letter-spacing: 0.03em;
-
+  line-height: 1.2;
   color: var(--main-color);
 }
 .logo-web {
@@ -49,10 +47,9 @@ a {
   background-color: var(--foot-bg-color);
 }
 .site-nav a {
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1, 14;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 
   color: var(--main-color);
@@ -65,10 +62,9 @@ a {
   color: var(--accent-color);
 }
 .head-contact {
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1, 14;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 }
 .head-contact a:hover,
@@ -99,7 +95,7 @@ a {
 .hero-title {
   font-weight: 900;
   font-size: 44px;
-  line-height: 1, 36;
+  line-height: 1.36;
 
   text-align: center;
   letter-spacing: 0.06em;
@@ -118,30 +114,23 @@ a {
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
-  line-height: 1, 9px;
+  line-height: 1.9;
 }
 .features .title {
-  font-style: normal;
   font-weight: bold;
   font-size: 14px;
-  line-height: 1, 14px;
-  letter-spacing: 0.03em;
+  line-height: 1.14;
   text-transform: uppercase;
 }
 .feat-text {
-  font-style: normal;
-  font-weight: normal;
   font-size: 16px;
-  line-height: 1, 18;
-  letter-spacing: 0.03em;
+  line-height: 1.18;
 }
 .main-title {
-  font-style: normal;
   font-weight: bold;
   font-size: 36px;
-  line-height: 1, 16;
+  line-height: 1.16;
   text-align: center;
-  letter-spacing: 0.03em;
 }
 .team-list {
   width: 270px;
@@ -149,26 +138,19 @@ a {
   background: var(--main-bg-color);
 }
 .team-subtitle {
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1, 18px;
-  letter-spacing: 0.03em;
+  line-height: 1.18;
 }
 .team-text {
-  font-style: normal;
-  font-weight: normal;
   font-size: 16px;
-  line-height: 1, 18px;
-  letter-spacing: 0.03em;
+  line-height: 1.18;
 }
 .address .link {
-  font-family: Roboto;
   font-style: normal;
-  font-weight: normal;
+  font-family: Roboto;
   font-size: 14px;
-  line-height: 1, 7;
-  letter-spacing: 0.03em;
+  line-height: 1.7;
   color: var(--main-bg-color);
 }
 .link.link-rgba {
@@ -179,29 +161,38 @@ a {
   --btn-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
-.btn.port-btn {
+.port-btn {
   width: auto;
   height: auto;
   position: inherit;
   background-color: var(--accent-color);
   box-shadow: var(--btn-shadow);
   border-radius: 4px;
-  font-style: normal;
+  border-color: transparent;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1, 6;
+  line-height: 1.6;
   text-align: center;
-  letter-spacing: 0.03em;
 }
-.btn.not-active {
+.port-btn.not-active {
   color: var(--main-color);
   background-color: var(--bg-color);
 }
 .port-list {
-  width: 370px;
-  height: 404px;
   background-color: var(--main-bg-color);
   border: 1px solid #eeeeee;
+}
+.port-title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--main-color);
+}
+.port-subtitle {
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--text-color);
 }
 /*основной цвет текста #212121*/
 /*вторичный цвет #757575*/
