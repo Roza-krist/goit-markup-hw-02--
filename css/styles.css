@@ -6,7 +6,9 @@
   --bg-color: #f5f4fa;
   --foot-bg-color: #2f303a;
 }
-* {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 /*основной цвет текста #212121*/
